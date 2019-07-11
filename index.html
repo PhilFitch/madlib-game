@@ -8,24 +8,57 @@
     <title>MadLib</title>
 </head>
 <body>
-    <h1>MadLib</h1>
+    <header>
+        <h1>A Mad Lib to Everybody</h1>
+    </header>
 
-    <label>
-        Animal: <input id="animal-1">
-        Verb: <input id="verb-1">
-        Verb: <input id="verb-2">
-        Animal: <input id="animal-2">
-        Adjective: <input id="adjective-1">
-        Verb: <input id="verb-3">
-        Verb: <input id="verb-4">
-        Verb Past: <input id="verb-past">
-    </label>
-
-    <p>Consider the <span id="animal-1"></span>;
-        Becoming extinct because he forgot how to <span id="verb-1"></span>, and could only <span id="verb-2"></span>.
-        Consider <span id="animal-2"></span>, who may well become <span id="adjective-1"></span>
-        Because he forgot how to <span id="verb-3"></span> and learned how to <span id="verb-4"></span> before he <span id="verb-past"></span>.</p>
-
+    <main>
+        <section>
+            <p>
+                <label>Animal: <input id="animal1"></label>
+            </p>
+            <p>
+                <label>Verb: <input id="verb1"></label>
+            </p>
+            <p>
+                <label>Verb: <input id="verb2"></label>
+            </p>
+            <p>
+                <label>Animal: <input id="animal2"></label>
+            </p>
+            <p>
+                <label>Adjective: <input id="adjective1"></label>
+            </p>
+            <p>
+                <label>Verb: <input id="verb3"></label>
+            </p>
+            <p>
+                <label>Verb: <input id="verb4"></label>
+            </p>
+            <p>
+                <label>Verb Past: <input id="verbPast"></label>
+            </p>
+            <p>
+                <button onclick=reveal()>Reveal Your Poem!</button>
+            </p>
+        </section>
+        <section id="poem" class="hidden">
+            <h1>A Caution to Everybody</h1>
+            <h3>by Ogden Nash</h3>
+            <p>
+                Consider the <span id="animal1"></span>;
+            </p>
+            <p>
+                Becoming extinct because he forgot how to <span id="verb1"></span>, and could only <span id="verb2"></span>.
+            </p>
+            <p>
+                Consider the <span id="animal2"></span>, who may well become <span id="adjective1"></span>
+            </p>
+            <p>
+                Because he forgot how to <span id="verb3"></span> and learned how to <span id="verb4"></span> before he <span id="verbPast"></span>.
+            </p>
+        </section>
+    </main>
     <script src="app.js"></script>
 </body>
 </html>
