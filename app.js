@@ -7,14 +7,14 @@ const verb3Input = document.getElementById('verb3');
 const verb4Input = document.getElementById('verb4');
 const verbPastInput = document.getElementById('verbPast');
 
-const animal1Span = document.getElementById('animal1');
-const verb1Span = document.getElementById('verb1');
-const verb2Span = document.getElementById('verb2');
-const animal2Span = document.getElementById('animal2');
-const adjective1Span = document.getElementById('adjective1');
-const verb3Span = document.getElementById('verb3');
-const verb4Span = document.getElementById('verb4');
-const verbPastSpan = document.getElementById('verbPast');
+const animal1Span = document.getElementById('animal1Span');
+const verb1Span = document.getElementById('verb1Span');
+const verb2Span = document.getElementById('verb2Span');
+const animal2Span = document.getElementById('animal2Span');
+const adjective1Span = document.getElementById('adjective1Span');
+const verb3Span = document.getElementById('verb3Span');
+const verb4Span = document.getElementById('verb4Span');
+const verbPastSpan = document.getElementById('verbPastSpan');
 
 const poemSection = document.getElementById('poem');
 
